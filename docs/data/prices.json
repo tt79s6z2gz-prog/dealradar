@@ -123,6 +123,18 @@
       "errors": [
         "Cyberport: robots.txt unklar (403)."
       ]
+    },
+    {
+      "id": "adidas-jamaika-26-bob-funktionsshirt-aboutyou-31748008",
+      "name": "adidas Performance Funktionsshirt Jamaika 26 x Bob Marley (ABOUT YOU)",
+      "category": "Mode",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.aboutyou.de/p/adidas-performance/funktionsshirt-jamaika-26-x-bob-31748008?vid=90051199",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
     }
   ],
   "history": {
@@ -296,7 +308,8 @@
         "time": "2026-11-22T20:40:41+00:00",
         "price_cents": 24900
       }
-    ]
+    ],
+    "adidas-jamaika-26-bob-funktionsshirt-aboutyou-31748008": []
   },
   "alerts": [],
   "summary": {
