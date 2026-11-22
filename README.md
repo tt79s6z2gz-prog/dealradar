@@ -9,6 +9,17 @@ Die Web-App zeigt **nur Produkte, deren echte Shop-URLs in `produkte.json` stehe
 
 **Alarmschwelle:** mindestens 10 % **und** 3 € Preissenkung zwischen erfolgreichen Messungen. Die App zeigt Alarme beim Öffnen; echte iOS-Push-Nachrichten sind nicht enthalten. Telegram ist optional (GitHub Actions Secrets).
 
+## Produkt einfacher aus der App hinzufügen (neu)
+
+1. In DealRadar **„＋ Produkt beobachten“** antippen und einen Produktlink (idealo, Geizhals oder Shop) einfügen.
+2. **„Produkt vormerken →“** antippen. GitHub öffnet eine bereits ausgefüllte Anfrage.
+3. Dort einmal **„Submit new issue“** bestätigen. Der Workflow `produkt-hinzufuegen.yml` aktualisiert `produkte.json` und die App-Produktliste automatisch.
+4. Die DealRadar-App neu laden. Ein Preis erscheint erst nach einer erfolgreichen automatischen Messung.
+
+Für diesen Ablauf musst du bei GitHub angemeldet sein und die Issues-Funktion sowie GitHub Actions müssen aktiviert sein. **Kein JSON-Kopieren nötig.** Die GitHub-Bestätigung ist erforderlich, weil GitHub Pages als statische Website keine vertraulichen Schreibzugangsdaten sicher speichern kann.
+
+**Noch einfacher:** Schick mir den Produktlink hier im Chat, dann kann ich ihn über die verbundene GitHub-Integration hinzufügen.
+
 ## Web-App online schalten
 1. Repository unter **Settings → Pages** öffnen.
 2. Unter **Build and deployment → Source**: **Deploy from a branch**.
