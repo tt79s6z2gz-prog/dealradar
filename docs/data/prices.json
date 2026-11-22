@@ -12,10 +12,23 @@
       "fresh": false,
       "offers": [],
       "errors": []
+    },
+    {
+      "id": "kb3395",
+      "name": "KB3395",
+      "category": "Sonstiges",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.adidas.de/jamaika-26-x-bob-marley-kids-heimausrustung/KB3395.html",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
     }
   ],
   "history": {
-    "xgimi-elfin-flip-4k": []
+    "xgimi-elfin-flip-4k": [],
+    "kb3395": []
   },
   "alerts": [],
   "summary": {
