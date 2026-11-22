@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:40:41+00:00",
+  "generated_at": "2026-11-22T21:38:26+00:00",
   "products": [
     {
       "id": "xgimi-elfin-flip-4k",
@@ -8,7 +8,7 @@
       "best_price_cents": 74400,
       "best_shop": "XGIMI Hersteller-Shop",
       "best_url": "https://de.xgimi.com/products/elfin-flip-4k",
-      "last_success_at": "2026-11-22T20:40:41+00:00",
+      "last_success_at": "2026-11-22T21:38:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -32,7 +32,7 @@
       "fresh": false,
       "offers": [],
       "errors": [
-        "adidas.de: robots.txt unklar (403).",
+        "adidas.de: The read operation timed out",
         "idealo (Größe prüfen): robots.txt unklar (403)."
       ]
     },
@@ -71,7 +71,7 @@
       "best_price_cents": 99900,
       "best_shop": "Samsung Hersteller-Shop",
       "best_url": "https://www.samsung.com/de/projectors/the-freestyle/the-freestyle-sp-lff3hlaxxxe/",
-      "last_success_at": "2026-11-22T20:40:41+00:00",
+      "last_success_at": "2026-11-22T21:38:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -91,7 +91,7 @@
       "best_price_cents": 2999,
       "best_shop": "PLAYMOBIL Hersteller-Shop",
       "best_url": "https://www.playmobil.com/de-de/esa--mars-erkundungsrover/72012.html",
-      "last_success_at": "2026-11-22T20:40:41+00:00",
+      "last_success_at": "2026-11-22T21:38:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -111,7 +111,7 @@
       "best_price_cents": 24900,
       "best_shop": "Apple Store",
       "best_url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
-      "last_success_at": "2026-11-22T20:40:41+00:00",
+      "last_success_at": "2026-11-22T21:38:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -134,7 +134,9 @@
       "last_success_at": null,
       "fresh": false,
       "offers": [],
-      "errors": []
+      "errors": [
+        "ABOUT YOU (Variante 90051199): Kein eindeutiger EUR-Produktpreis gefunden."
+      ]
     }
   ],
   "history": {
@@ -177,6 +179,10 @@
       },
       {
         "time": "2026-11-22T20:40:41+00:00",
+        "price_cents": 74400
+      },
+      {
+        "time": "2026-11-22T21:38:26+00:00",
         "price_cents": 74400
       }
     ],
@@ -223,6 +229,10 @@
       {
         "time": "2026-11-22T20:40:41+00:00",
         "price_cents": 99900
+      },
+      {
+        "time": "2026-11-22T21:38:26+00:00",
+        "price_cents": 99900
       }
     ],
     "playmobil-72012-esa-mars-rover": [
@@ -264,6 +274,10 @@
       },
       {
         "time": "2026-11-22T20:40:41+00:00",
+        "price_cents": 2999
+      },
+      {
+        "time": "2026-11-22T21:38:26+00:00",
         "price_cents": 2999
       }
     ],
@@ -307,15 +321,19 @@
       {
         "time": "2026-11-22T20:40:41+00:00",
         "price_cents": 24900
+      },
+      {
+        "time": "2026-11-22T21:38:26+00:00",
+        "price_cents": 24900
       }
     ],
     "adidas-jamaika-26-bob-funktionsshirt-aboutyou-31748008": []
   },
   "alerts": [],
   "summary": {
-    "checked": 12,
+    "checked": 13,
     "successful": 4,
-    "failed": 8
+    "failed": 9
   },
   "notice": "Nur Preise aus erfolgreich auslesbaren Produktlinks; keine Versandkosten oder Marktpreisgarantie."
 }
