@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: dealradar-preispruefung
+  group: dealradar-repo-write
   cancel-in-progress: false
 jobs:
   pruefen:
