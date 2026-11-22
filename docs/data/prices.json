@@ -15,11 +15,59 @@
     },
     {
       "id": "kb3395",
-      "name": "KB3395",
-      "category": "Sonstiges",
+      "name": "adidas Jamaika 26 x Bob Marley Kids Heimausrüstung (KB3395, Größe variabel)",
+      "category": "Kinderkleidung",
       "best_price_cents": null,
       "best_shop": null,
       "best_url": "https://www.adidas.de/jamaika-26-x-bob-marley-kids-heimausrustung/KB3395.html",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
+    },
+    {
+      "id": "adidas-kb3395-groesse-110",
+      "name": "adidas Jamaika 26 x Bob Marley Kids Heimausrüstung – Größe 110 (KB3395)",
+      "category": "Kinderkleidung",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.adidas.de/jamaika-26-x-bob-marley-kids-heimausrustung/KB3395.html?forceSelSize=110",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
+    },
+    {
+      "id": "playmobil-9489-mars-erkundungsfahrzeug",
+      "name": "PLAYMOBIL Space Mars-Erkundungsfahrzeug (9489)",
+      "category": "Kinderspielzeug",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.idealo.de/preisvergleich/OffersOfProduct/6027882_-space-mars-erkundungsfahrzeug-9489-playmobil.html",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
+    },
+    {
+      "id": "samsung-the-freestyle-plus-sp-lff3hlax",
+      "name": "Samsung The Freestyle+ (SP-LFF3HLAX)",
+      "category": "Elektronik",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.idealo.de/preisvergleich/OffersOfProduct/211772415_-the-freestyle-sp-lff3hlax-samsung.html",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
+    },
+    {
+      "id": "playmobil-72012-esa-mars-rover",
+      "name": "PLAYMOBIL ESA Mars-Erkundungsrover (72012)",
+      "category": "Kinderspielzeug",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.playmobil.com/de-de/esa--mars-erkundungsrover/72012.html",
       "last_success_at": null,
       "fresh": false,
       "offers": [],
@@ -28,7 +76,11 @@
   ],
   "history": {
     "xgimi-elfin-flip-4k": [],
-    "kb3395": []
+    "kb3395": [],
+    "adidas-kb3395-groesse-110": [],
+    "playmobil-9489-mars-erkundungsfahrzeug": [],
+    "samsung-the-freestyle-plus-sp-lff3hlax": [],
+    "playmobil-72012-esa-mars-rover": []
   },
   "alerts": [],
   "summary": {
