@@ -72,6 +72,18 @@
       "fresh": false,
       "offers": [],
       "errors": []
+    },
+    {
+      "id": "apple-airpods-pro-3",
+      "name": "Apple AirPods Pro 3",
+      "category": "Elektronik",
+      "best_price_cents": null,
+      "best_shop": null,
+      "best_url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
+      "last_success_at": null,
+      "fresh": false,
+      "offers": [],
+      "errors": []
     }
   ],
   "history": {
@@ -80,7 +92,8 @@
     "adidas-kb3395-groesse-110": [],
     "playmobil-9489-mars-erkundungsfahrzeug": [],
     "samsung-the-freestyle-plus-sp-lff3hlax": [],
-    "playmobil-72012-esa-mars-rover": []
+    "playmobil-72012-esa-mars-rover": [],
+    "apple-airpods-pro-3": []
   },
   "alerts": [],
   "summary": {
