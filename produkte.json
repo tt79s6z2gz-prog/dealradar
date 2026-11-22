@@ -80,5 +80,20 @@
         "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/209072975_-esa-mars-erkundungsrover-72012-playmobil.html"
       }
     ]
+  },
+  {
+    "id": "apple-airpods-pro-3",
+    "name": "Apple AirPods Pro 3",
+    "category": "Elektronik",
+    "offers": [
+      {
+        "shop": "Apple Store",
+        "url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3"
+      },
+      {
+        "shop": "Cyberport",
+        "url": "https://www.cyberport.de/apple-und-zubehoer/apple-zubehoer/zubehoer-iphone/kopfhoerer/apple/pdp/b102-24m/apple-airpods-pro-3-mit-magsafe-case-usb-c-mfhp4zm-a.html"
+      }
+    ]
   }
 ]
