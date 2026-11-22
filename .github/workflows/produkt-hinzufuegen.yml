@@ -35,12 +35,29 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python tracker.py
-      - name: Katalog und kompletten Preisverlauf speichern
+      - name: Ergebnis sicher zwischenspeichern
+        run: cp docs/data/prices.json "$RUNNER_TEMP/dealradar-scan.json"
+      - name: Katalog und Preisverlauf mit Wiederholung speichern
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add produkte.json docs/data/prices.json
-          if ! git diff --cached --quiet; then
-            git commit -m "DealRadar: Produkt hinzugefügt und alle Preise geprüft"
-            git push
-          fi
+          for attempt in 1 2 3 4 5; do
+            echo "Speicherversuch $attempt von 5"
+            git fetch origin main
+            git reset --hard origin/main
+            python issue_add.py
+            python merge_scan.py "$RUNNER_TEMP/dealradar-scan.json" docs/data/prices.json produkte.json
+            git add produkte.json docs/data/prices.json
+            if git diff --cached --quiet; then
+              echo "Produkt und Preise bereits gespeichert."
+              exit 0
+            fi
+            git commit -m "DealRadar: Produkt hinzugefügt und Preise geprüft"
+            if git push origin HEAD:main; then
+              echo "Produkt und Preise gespeichert."
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "GitHub-Verbindungskonflikt nach 5 Versuchen." >&2
+          exit 1
