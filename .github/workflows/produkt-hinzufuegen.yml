@@ -1,0 +1,35 @@
+name: DealRadar Produktanfrage übernehmen
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: dealradar-repo-write
+  cancel-in-progress: false
+jobs:
+  hinzufuegen:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[DealRadar] ')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Produktanfrage prüfen und eintragen
+        run: python issue_add.py
+      - name: Produktkatalog speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add produkte.json docs/data/prices.json
+          if ! git diff --cached --quiet; then
+            git commit -m "DealRadar: Produkt aus App hinzugefügt"
+            git push
+          fi
