@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:14:21+00:00",
+  "generated_at": "2026-11-25T19:28:26+00:00",
   "products": [
     {
       "id": "xgimi-elfin-flip-4k",
@@ -8,7 +8,7 @@
       "best_price_cents": 74400,
       "best_shop": "XGIMI Hersteller-Shop",
       "best_url": "https://de.xgimi.com/products/elfin-flip-4k",
-      "last_success_at": "2026-11-25T18:14:21+00:00",
+      "last_success_at": "2026-11-25T19:28:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -32,7 +32,7 @@
       "fresh": false,
       "offers": [],
       "errors": [
-        "adidas.de: The read operation timed out",
+        "adidas.de: robots.txt unklar (403).",
         "idealo (Größe prüfen): robots.txt unklar (403)."
       ]
     },
@@ -47,7 +47,7 @@
       "fresh": false,
       "offers": [],
       "errors": [
-        "adidas – Größe 110: The read operation timed out"
+        "adidas – Größe 110: robots.txt unklar (403)."
       ]
     },
     {
@@ -71,7 +71,7 @@
       "best_price_cents": 99900,
       "best_shop": "Samsung Hersteller-Shop",
       "best_url": "https://www.samsung.com/de/projectors/the-freestyle/the-freestyle-sp-lff3hlaxxxe/",
-      "last_success_at": "2026-11-25T18:14:21+00:00",
+      "last_success_at": "2026-11-25T19:28:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -91,7 +91,7 @@
       "best_price_cents": 2099,
       "best_shop": "PLAYMOBIL Hersteller-Shop",
       "best_url": "https://www.playmobil.com/de-de/esa--mars-erkundungsrover/72012.html",
-      "last_success_at": "2026-11-25T18:14:21+00:00",
+      "last_success_at": "2026-11-25T19:28:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -111,7 +111,7 @@
       "best_price_cents": 24900,
       "best_shop": "Apple Store",
       "best_url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
-      "last_success_at": "2026-11-25T18:14:21+00:00",
+      "last_success_at": "2026-11-25T19:28:26+00:00",
       "fresh": true,
       "offers": [
         {
@@ -352,6 +352,10 @@
       {
         "time": "2026-11-25T18:14:21+00:00",
         "price_cents": 74400
+      },
+      {
+        "time": "2026-11-25T19:28:26+00:00",
+        "price_cents": 74400
       }
     ],
     "kb3395": [],
@@ -569,6 +573,10 @@
       {
         "time": "2026-11-25T18:14:21+00:00",
         "price_cents": 99900
+      },
+      {
+        "time": "2026-11-25T19:28:26+00:00",
+        "price_cents": 99900
       }
     ],
     "playmobil-72012-esa-mars-rover": [
@@ -783,6 +791,10 @@
       {
         "time": "2026-11-25T18:14:21+00:00",
         "price_cents": 2099
+      },
+      {
+        "time": "2026-11-25T19:28:26+00:00",
+        "price_cents": 2099
       }
     ],
     "apple-airpods-pro-3": [
@@ -996,6 +1008,10 @@
       },
       {
         "time": "2026-11-25T18:14:21+00:00",
+        "price_cents": 24900
+      },
+      {
+        "time": "2026-11-25T19:28:26+00:00",
         "price_cents": 24900
       }
     ],
